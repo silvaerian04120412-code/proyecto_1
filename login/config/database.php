@@ -1,6 +1,6 @@
 <?php
 // ---------------------------------------------------------
-// CONEXIÓN PDO A LA BASE DE DATOS
+// CONEXIÓN PDO A LA BASE DE DATOS. prueba
 // ---------------------------------------------------------
 class Database {
 
