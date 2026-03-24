@@ -1,6 +1,7 @@
 <?php
 // Archivo temporal para generar hashes seguros con password_hash()
-// Ubicación recomendada: proyecto_1/login/generar_hash.php
+/* Ubicación recomendada: proyecto_1/login/generar_hash.php. una vez no se nececite borrar. para usarlo ir con url al navegador para generar la contraseña(hash)
+que usa el propio sistema al subirlo a la base de datos*/ 
 
 if (!empty($_GET['pass'])) {
     $password = $_GET['pass'];

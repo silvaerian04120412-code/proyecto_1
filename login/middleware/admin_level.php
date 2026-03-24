@@ -1,7 +1,9 @@
 <?php
-// ---------------------------------------------------------
-// MIDDLEWARE PARA PROTEGER RUTAS DE ADMINISTRADORES
-// ---------------------------------------------------------
+/* ---------------------------------------------------------
+   MIDDLEWARE PARA PROTEGER RUTAS DE ADMINISTRADORES
+   osea ver si la persona que este en esa parte del sistema ademas de tenr una sesión activa
+   sea un admin junto con su respectivo nivel de acceso
+ ---------------------------------------------------------*/
 
 session_start();
 

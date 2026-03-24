@@ -1,8 +1,11 @@
 <?php
-// ---------------------------------------------------------
-// CONTROLADOR PARA CREAR ADMINISTRADORES
-// Aplica jerarquía y auditoría (creado_por)
-// ---------------------------------------------------------
+/*---------------------------------------------------------
+ CONTROLADOR PARA CREAR ADMINISTRADORES
+ Aplica jerarquía y auditoría (creado_por). Esto con la intención de que si se quiere hacer una auditoria 
+ de quien creo algún admin se sepa quien fue. Esto con la intensión de poder llevar un control en el manejo del 
+ acceso de los administradores y de haber algún error por parte de uno conseguir quien es su resposable.
+
+---------------------------------------------------------*/
 
 session_start();
 require_once "../config/database.php";
