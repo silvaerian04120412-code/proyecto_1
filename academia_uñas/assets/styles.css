@@ -1,0 +1,82 @@
+@import url("fonts.css");
+body {
+    background: rgb(20, 20, 20);
+    font-family: "Cormorant", serif;
+}
+.alert {
+    background-color: #f8d7da;
+    color: #721c24;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #f5c6cb;
+    font-size: 14px;
+}
+
+.success {
+    background-color: #d4edda;
+    color: #155724;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #c3e6cb;
+}
+.box_registro {
+    background-color: rgb(20 19 0);
+    padding: 25px;
+    border: 2px solid rgb(218 165 32);
+    border-radius: 10px;
+    box-sizing: border-box;
+    height: 700px;
+    width: 700px;
+    text-align: center;
+    color: #c9930b;
+    margin: auto;
+    margin-top: 59px;
+    box-shadow: 0px 0px 30px 0px;
+
+}
+
+.form_escribir {
+    margin: 10px;
+    padding: 6px 9px;
+    width: 300px;
+    border-color: rgb(201, 147, 11);
+    border-bottom: 5px solid rgb(218, 165, 32);
+    background: rgb(0, 0, 0);
+    border-radius: 0 0 10px 10px ;
+    text-align: center;
+    margin: auto;
+    display: block;
+    color: aliceblue;
+
+}
+.boton {
+    margin: auto;
+    display: block;
+    margin-top: 10px;
+    letter-spacing: 0.3px;
+    text-transform: uppercase;
+    background: rgb(218, 165, 32);
+    width: 200px;
+    height: 30px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+    border-radius: 7px;
+    font-weight: 700;
+}
+
+.text_form {
+    display: block;
+    text-align: center;
+    margin: auto;
+    font-size: 25px;
+}
+.titulo_registro {
+    text-align: center;
+    font-family: "Cormorant", serif;
+    font-weight: 700;
+    font-size: 48px;
+    margin-bottom: 0;
+}
